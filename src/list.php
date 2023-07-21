@@ -4,9 +4,9 @@ mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 extract($_POST);
 $errors = [];
 
-$db_host = 'app';
-$db_user = 'app_passwd';
-$db_password = 'test';
+$db_host = 'mysql';
+$db_user = 'app';
+$db_password = 'app_passwd';
 $db_db = 'test';
 
 $mysqli = @new mysqli(
